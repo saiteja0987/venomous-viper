@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-family: 'New Tegomin', serif;
+}
+h2{
+   font-size: 20px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-family: 'New Tegomin', serif;
+}
+body { 
+    font-family: Arial, sans-serif;
+    background-color:greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+    border: 1px solid #2a2121;
+    border-radius: 10px;
+    font-family: 'New Tegomin', serif;
+}
+
+label {
+    color: rgb(80, 73, 73);
+    font-size: 1rem;
+}
+
+#play-button {
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(124, 214, 33);
+    border-radius: 5px;
+    width: 100px;
+    height: 50px; 
+    color: #ffffff; 
+    text-align: center;
+    text-decoration: none; 
+    cursor: pointer; 
+    border: 2px solid #1b1c1b; 
+    transition: background-color 0.8s, color 0.3s; 
+    font-family: 'New Tegomin', serif;
+}
+
+#play-button:hover {
+    background-color: #5a8c1a;
+    color: #fff; 
+}
